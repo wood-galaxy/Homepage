@@ -34,8 +34,8 @@ p {
 #banner .intro img {
     display: inline;
     margin: 0;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
 }
 
 #banner .intro a {
@@ -272,7 +272,7 @@ nav#menu li#freecad-home {
 #banner h1 {
     margin-right: 0;
     margin-top: -2rem;
-    font-size: 10rem;
+    font-size: 4rem;
 }
 
 #banner .introInfo {
