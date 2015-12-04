@@ -8,7 +8,7 @@ p {
         -ms-hyphens: auto;
             hyphens: auto;
             */
-    color: #777;
+    color: #242424;
 }
 
 
@@ -129,6 +129,7 @@ section#extensible {
 
 section#introduction h2 {
     margin-bottom: 1rem;
+    color: #242424
 }
 
 section#introduction p {
@@ -153,7 +154,7 @@ nav#menu li#gimp-home {
                         url('../images/laygear.jpg');
     background-size: cover;
     background-position: 20% 50%;
-    color: white;
+    color: #242424;
 }
 
 #cap-photos .column.third {
@@ -167,7 +168,7 @@ nav#menu li#gimp-home {
 
 .cap h2 {
     display: inline-block;
-    border-bottom: solid 1px #aaa;
+    border-bottom: solid 1px #555;
     margin-bottom: 1rem;
     font-size: 1.4rem;
 }
@@ -176,8 +177,8 @@ nav#menu li#gimp-home {
     text-align: left;
 }
 
-#cap-photos p, #cap-painting p {
-    color: whitesmoke;
+#cap-photos p, #cap-painting p, #cap-photos2 p, #cap-painting2 p {
+    color: #242424;
 }
 
 #cap-algorithms p {
@@ -207,10 +208,27 @@ nav#menu li#gimp-home {
                         url('../images/solarplant.png');
     background-size: cover;
     background-position: 82% 100%;
-    color: white;
+    color: #242424;
 }
 
 #cap-painting .column.third {
+    height: 300px;
+    max-height: 30vh;
+}
+
+#cap-painting2 {
+    background-color: #0e2426;
+    background-image:linear-gradient(
+                        rgba(0,0,0,0.9),
+                        rgba(0,0,0,0.4),
+                        rgba(0,0,0,0)), 
+                        url('../images/solarplant.png');
+    background-size: cover;
+    background-position: 82% 100%;
+    color: #242424;
+}
+
+#cap-painting2 .column.third {
     height: 300px;
     max-height: 30vh;
 }
@@ -279,6 +297,14 @@ span#gFirst {
     
     #cap-painting {
         background-image: url('../images/solarplant.png');
+    }
+
+    #cap-photos2 {
+        background-image: url('../images/laygear.jpg');
+    }
+    
+    #cap-painting2 {
+        background-image: url('../images/rccarwheel.jpg');
     }
 
     #cap-algorithms {
