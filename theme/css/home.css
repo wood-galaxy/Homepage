@@ -181,21 +181,21 @@ nav#menu li#freecad-home {
     color: #242424;
 }
 
-#cap-algorithms p {
+#cap-architecture p {
     text-align: left;
 }
 
-#cap-algorithms {
+#cap-architecture {
     background-image: linear-gradient(
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
                     rgba( 255,255,255,0.5 ) ),
-                    url('../images/python.png');
+                    url('../images/architecture.png');
     background-position: 0 0;
     background-repeat: no-repeat;
 }
 
-#cap-algorithms .column.third {
+#cap-architecture .column.third {
     height: 100px;
 }
 
@@ -233,16 +233,16 @@ nav#menu li#freecad-home {
     max-height: 30vh;
 }
 
-#cap-graphics {
+#cap-fem {
     background-image: linear-gradient(
                         rgba(255,255,255,0),
                         rgba(255,255,255,1) 60%,
                         white ),
-                        url('../images/laygear.jpg');
+                        url('../images/fem.png');
     background-repeat: no-repeat;
 }
 
-#cap-graphics .column.third {
+#cap-fem .column.third {
     height: 250px;
     max-height: 30vh;
 }
@@ -324,22 +324,22 @@ span#gFirst {
         background-position: 100% 0;
     }
 
-    #cap-algorithms {
+    #cap-architecture {
         background-image: linear-gradient(
                     to right,
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
                     rgba( 255,255,255,0.5 ) ),
-                    url('../images/python.png');
+                    url('../images/architecture.png');
         background-position: 100% 0;
     }
 
-    #cap-graphics {
+    #cap-fem {
             background-image: linear-gradient( to right,
                         rgba(255,255,255,0),
                         rgba(255,255,255,1) 40%,
                         white ),
-                        url('../images/laygear.jpg');
+                        url('../images/fem.png');
     }
 
     span#gFirst, span#gSecond {
