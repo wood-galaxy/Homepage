@@ -145,7 +145,7 @@ nav#menu li#gimp-home {
      */
 }
 
-#cap-photos {
+#cap-hobbyist {
     background-color: #0e2426;
     background-image: linear-gradient(
                     rgba( 255, 255, 255, 0.5 ),
@@ -157,7 +157,7 @@ nav#menu li#gimp-home {
     color: #242424;
 }
 
-#cap-photos .column.third {
+#cap-hobbyist .column.third {
     height: 300px;
     max-height: 30vh;
 }
@@ -199,24 +199,24 @@ nav#menu li#gimp-home {
     height: 100px;
 }
 
-#cap-painting {
+#cap-teacher {
     background-color: #0e2426;
     background-image:linear-gradient(
                         rgba(0,0,0,0.9),
                         rgba(0,0,0,0.4),
                         rgba(0,0,0,0)), 
-                        url('../images/centrifugal.png');
+                        url('../images/hephestos.png');
     background-size: cover;
     background-position: 82% 100%;
     color: #242424;
 }
 
-#cap-painting .column.third {
+#cap-teacher .column.third {
     height: 300px;
     max-height: 30vh;
 }
 
-#cap-painting2 {
+#cap-programmer {
     background-color: #0e2426;
     background-image:linear-gradient(
                     rgba( 255, 255, 255, 1 ),
@@ -228,7 +228,7 @@ nav#menu li#gimp-home {
     color: #242424;
 }
 
-#cap-painting2 .column.third {
+#cap-programmer .column.third {
     height: 300px;
     max-height: 30vh;
 }
@@ -291,7 +291,7 @@ span#gFirst {
         font-size: 11rem;
     }
 
-    #cap-photos {
+    #cap-hobbyist {
         background-image: linear-gradient(
                     rgba( 255, 255, 255, 0.8 ),
                     rgba( 255,255,255,0.5),
@@ -299,14 +299,14 @@ span#gFirst {
                     url('../images/rccarwheel.jpg');
     }
     
-    #cap-painting {
+    #cap-teacher {
         background-image: linear-gradient(
                     rgba( 255, 255, 255, 0.8 ),
                     rgba( 255,255,255,0.5),
                     rgba( 255,255,255,0.5 ) ),
-                    url('../images/centrifugal.jpg');
+                    url('../images/hephestos.png');
     }
-    #cap-photos2 {
+    #cap-experienced {
         background-image: linear-gradient(
                     rgba( 255, 255, 255, 0.8 ),
                     rgba( 255,255,255,0.5),
@@ -314,7 +314,7 @@ span#gFirst {
                     url('../images/centrifugal.jpg');
     }
     
-    #cap-painting2 {
+    #cap-programmer {
         background-image: linear-gradient(
                     to right,
                     rgba( 255, 255, 255, 1 ),
