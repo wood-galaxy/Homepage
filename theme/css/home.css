@@ -20,8 +20,8 @@ p {
 }
 
 #banner h1 {
-    font-size: 11rem;
-    font-family: "League Gothic", sans;
+    font-size: 8rem;
+    font-family: "Fira Sans", sans-serif;
     font-weight: 400;
     margin-right: 1rem;
 }
@@ -34,7 +34,7 @@ p {
 #banner .intro img {
     display: inline;
     margin: 0;
-    height: 150px;
+    height: 200px;
     width: 200px;
 }
 
@@ -46,7 +46,7 @@ p {
 #banner .introInfo {
     display: inline-block;
     color: white;
-    font-family: Ostrich Sans Rounded, sans;
+    font-family: Fira Sans, sans-serif;
     margin-top: -2rem;
 }
 
@@ -73,7 +73,7 @@ span#gThird span {
 }
 
 #DLButton {
-    font-family: League Gothic, sans;
+    font-family: Fira Sans, sans-serif;
     font-size: 1.5rem;
     /* border: solid 2px white; */
     background-color: #e74c3c;
@@ -84,7 +84,7 @@ span#gThird span {
 }
 
 #ver {
-    font-family: Ostrich Sans Rounded, sans;
+    font-family: Fira Sans, sans-serif;
 }
 
 #ReleaseButton {
@@ -140,7 +140,7 @@ section#introduction .container {
     max-width: none;
 }
 
-nav#menu li#gimp-home {
+nav#menu li#freecad-home {
     /*display: none;
      */
 }
@@ -288,7 +288,7 @@ span#gFirst {
     #banner h1 {
         margin-right: 1rem;
         margin-top: 0;
-        font-size: 11rem;
+        font-size: 8rem;
     }
 
     #cap-hobbyist {
