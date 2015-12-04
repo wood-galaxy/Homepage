@@ -148,10 +148,10 @@ nav#menu li#gimp-home {
 #cap-photos {
     background-color: #0e2426;
     background-image: linear-gradient(
-                        rgba(0,0,0,0),
-                        rgba(0,0,0,0),
-                        rgba(0,0,0,0.9)),
-                        url('../images/laygear.jpg');
+                    rgba( 255, 255, 255, 0.5 ),
+                    rgba( 255,255,255,0.5),
+                    rgba( 255,255,255,1 ) ),
+                    url('../images/rccarwheel.jpg');
     background-size: cover;
     background-position: 20% 50%;
     color: #242424;
@@ -190,7 +190,7 @@ nav#menu li#gimp-home {
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
                     rgba( 255,255,255,0.5 ) ),
-                    url('../images/laygear.jpg');
+                    url('../images/python.png');
     background-position: 0 0;
     background-repeat: no-repeat;
 }
@@ -205,7 +205,7 @@ nav#menu li#gimp-home {
                         rgba(0,0,0,0.9),
                         rgba(0,0,0,0.4),
                         rgba(0,0,0,0)), 
-                        url('../images/solarplant.png');
+                        url('../images/centrifugal.png');
     background-size: cover;
     background-position: 82% 100%;
     color: #242424;
@@ -219,12 +219,12 @@ nav#menu li#gimp-home {
 #cap-painting2 {
     background-color: #0e2426;
     background-image:linear-gradient(
-                        rgba(0,0,0,0.9),
-                        rgba(0,0,0,0.4),
-                        rgba(0,0,0,0)), 
-                        url('../images/solarplant.png');
-    background-size: cover;
-    background-position: 82% 100%;
+                    rgba( 255, 255, 255, 1 ),
+                    rgba( 255,255,255,1),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('../images/python.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
     color: #242424;
 }
 
@@ -292,19 +292,36 @@ span#gFirst {
     }
 
     #cap-photos {
-        background-image: url('../images/laygear.jpg');
+        background-image: linear-gradient(
+                    rgba( 255, 255, 255, 0.8 ),
+                    rgba( 255,255,255,0.5),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('../images/rccarwheel.jpg');
     }
     
     #cap-painting {
-        background-image: url('../images/solarplant.png');
+        background-image: linear-gradient(
+                    rgba( 255, 255, 255, 0.8 ),
+                    rgba( 255,255,255,0.5),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('../images/centrifugal.jpg');
     }
-
     #cap-photos2 {
-        background-image: url('../images/laygear.jpg');
+        background-image: linear-gradient(
+                    rgba( 255, 255, 255, 0.8 ),
+                    rgba( 255,255,255,0.5),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('../images/centrifugal.jpg');
     }
     
     #cap-painting2 {
-        background-image: url('../images/rccarwheel.jpg');
+        background-image: linear-gradient(
+                    to right,
+                    rgba( 255, 255, 255, 1 ),
+                    rgba( 255,255,255,1),
+                    rgba( 255,255,255,0.5 ) ),
+                    url('../images/python.png');
+        background-position: 100% 0;
     }
 
     #cap-algorithms {
@@ -313,7 +330,7 @@ span#gFirst {
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
                     rgba( 255,255,255,0.5 ) ),
-                    url('../images/laygear.jpg');
+                    url('../images/python.png');
         background-position: 100% 0;
     }
 
