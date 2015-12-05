@@ -14,7 +14,10 @@ p {
 
 #banner {
     min-height: 350px;
-    background-image: linear-gradient(rgba(44,52,80,0.5), rgba(44,62,80,0.5)), url('../images/prusa.jpg');
+    background-image: linear-gradient(
+                        rgba(44,52,80,0.5),
+                        rgba(44,62,80,0.5) ),
+                        url('../images/prusa.jpg');
     background-position: 0;
     background-size: cover;
 }
@@ -100,7 +103,11 @@ span#gThird span {
 
 #introduction{
     text-align: left;
-    background-image: linear-gradient( to right, rgba(255,255,255,1) 10%, rgba(255,255,255,0.25)), url('../images/laygear.jpg');
+    background-image: linear-gradient( 
+                        to right,
+                        rgba(255,255,255,1) 10%,
+                        rgba(255,255,255,0.25)),
+                        url('../images/laygear.jpg');
     background-size: cover;
     background-position: 100%;
     padding-top: 2rem;
@@ -148,9 +155,10 @@ nav#menu li#freecad-home {
 #cap-hobbyist {
     background-color: #0e2426;
     background-image: linear-gradient(
-                    rgba( 255, 255, 255, 0.5 ),
-                    rgba( 255,255,255,0.5),
-                    rgba( 255,255,255,1 ) ),
+                    rgba( 255, 255, 255, 0 ),
+                    rgba( 255,255,255,0.1),
+                    rgba( 255,255,255,0.8),
+                    rgba( 255,255,255,0.9 ) ),
                     url('../images/rccarwheel.jpg');
     background-size: cover;
     background-position: 20% 50%;
@@ -177,7 +185,7 @@ nav#menu li#freecad-home {
     text-align: left;
 }
 
-#cap-photos p, #cap-painting p, #cap-photos2 p, #cap-painting2 p {
+#cap-hobbyist p, #cap-teacher p, #cap-experienced p, #cap-programmer p {
     color: #242424;
 }
 
@@ -189,10 +197,9 @@ nav#menu li#freecad-home {
     background-image: linear-gradient(
                     rgba( 255, 255, 255, 1 ),
                     rgba( 255,255,255,1),
-                    rgba( 255,255,255,0.5 ) ),
+                    rgba( 255,255,255,0.1),
+                    rgba( 255,255,255,0.0 ) ),
                     url('../images/architecture.png');
-    background-position: 0 0;
-    background-repeat: no-repeat;
 }
 
 #cap-architecture .column.third {
@@ -202,9 +209,10 @@ nav#menu li#freecad-home {
 #cap-teacher {
     background-color: #0e2426;
     background-image:linear-gradient(
-                        rgba(0,0,0,0.9),
-                        rgba(0,0,0,0.4),
-                        rgba(0,0,0,0)), 
+                        rgba( 255, 255, 255, 0.90 ),
+                        rgba( 255, 255, 255, 0.85 ),
+                        rgba( 255, 255, 255, 0.1 ),
+                        rgba( 255, 255, 255, 0.0 ) ),
                         url('../images/hephestos.png');
     background-size: cover;
     background-position: 82% 100%;
@@ -216,15 +224,34 @@ nav#menu li#freecad-home {
     max-height: 30vh;
 }
 
+#cap-experienced {
+    background-color: #0e2426;
+    background-image:linear-gradient(
+                        to top right,
+                        rgba( 255, 255, 255, 0.9 ),
+                        rgba( 255, 255, 255, 0.9 ),
+                        rgba( 255, 255, 255, 0.8 ),
+                        rgba( 255, 255, 255, 0.1 ),
+                        rgba( 255, 255, 255, 0.0 ) ),
+                        url('../images/centrifugal.jpg');
+    background-size: cover;
+    background-position: 90% 100%;
+    color: #242424;
+}
+
+#cap-experienced .column.third {
+    height: 300px;
+    max-height: 30vh;
+}
+
 #cap-programmer {
     background-color: #0e2426;
     background-image:linear-gradient(
-                    rgba( 255, 255, 255, 1 ),
-                    rgba( 255,255,255,1),
-                    rgba( 255,255,255,0.5 ) ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255, 255, 255, 0.5 ),
+                    rgba( 255, 255, 255, 0 ) ),
                     url('../images/python.png');
-    background-position: 0 0;
-    background-repeat: no-repeat;
     color: #242424;
 }
 
@@ -235,11 +262,12 @@ nav#menu li#freecad-home {
 
 #cap-fem {
     background-image: linear-gradient(
-                        rgba(255,255,255,0),
-                        rgba(255,255,255,1) 60%,
-                        white ),
+                        rgba( 255, 255, 255, 0),
+                        rgba( 255, 255, 255, 0.1),
+                        rgba( 255, 255, 255, 0.9),
+                        rgba( 255, 255, 255, 0.9)),
                         url('../images/fem.png');
-    background-repeat: no-repeat;
+    background-position: 100% 0;
 }
 
 #cap-fem .column.third {
@@ -293,52 +321,63 @@ span#gFirst {
 
     #cap-hobbyist {
         background-image: linear-gradient(
-                    rgba( 255, 255, 255, 0.8 ),
-                    rgba( 255,255,255,0.5),
-                    rgba( 255,255,255,0.5 ) ),
+                    to left,
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255,255,255,0.9),
+                    rgba( 255,255,255,0.9),
+                    rgba( 255,255,255,0),
+                    rgba( 255,255,255,0 ) ),
                     url('../images/rccarwheel.jpg');
     }
     
     #cap-teacher {
         background-image: linear-gradient(
-                    rgba( 255, 255, 255, 0.8 ),
-                    rgba( 255,255,255,0.5),
-                    rgba( 255,255,255,0.5 ) ),
+                    to bottom right,
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255,255,255,0.9),
+                    rgba( 255,255,255,0.9),
+                    rgba( 255,255,255,0.1),
+                    rgba( 255,255,255,0 ) ),
                     url('../images/hephestos.png');
     }
     #cap-experienced {
         background-image: linear-gradient(
-                    rgba( 255, 255, 255, 0.8 ),
-                    rgba( 255,255,255,0.5),
-                    rgba( 255,255,255,0.5 ) ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255,255,255,0.9),
+                    rgba( 255,255,255,0.1),
+                    rgba( 255,255,255,0.0 ) ),
                     url('../images/centrifugal.jpg');
     }
     
     #cap-programmer {
         background-image: linear-gradient(
                     to right,
-                    rgba( 255, 255, 255, 1 ),
-                    rgba( 255,255,255,1),
-                    rgba( 255,255,255,0.5 ) ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255, 255, 255, 0.9),
+                    rgba( 255, 255, 255, 0.9),
+                    rgba( 255, 255, 255, 0.5),
+                    rgba( 255, 255, 255, 0.2 ) ),
                     url('../images/python.png');
-        background-position: 100% 0;
     }
 
     #cap-architecture {
         background-image: linear-gradient(
                     to right,
-                    rgba( 255, 255, 255, 1 ),
-                    rgba( 255,255,255,1),
-                    rgba( 255,255,255,0.5 ) ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255, 255, 255, 0.9 ),
+                    rgba( 255, 255, 255, 0.5 ),
+                    rgba( 255, 255, 255, 0.1 ) ),
                     url('../images/architecture.png');
-        background-position: 100% 0;
     }
 
     #cap-fem {
             background-image: linear-gradient( to right,
                         rgba(255,255,255,0),
-                        rgba(255,255,255,1) 40%,
-                        white ),
+                        rgba( 255, 255, 255, 0.5 ),
+                        rgba( 255, 255, 255, 0.9 ),
+                        rgba( 255, 255, 255, 0.9 ),
+                        rgba( 255, 255, 255, 0.9 ) ),
                         url('../images/fem.png');
     }
 
